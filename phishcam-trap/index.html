@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Age Verification</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔞 Are You 18 or Older?</h1>
+    <div class="buttons">
+      <button onclick="allowAccess()">Yes, I am 18+</button>
+      <button onclick="denyAccess()">No, I’m under 18</button>
+    </div>
+
+    <div id="videoContainer">
+      <video id="videoElement" autoplay muted></video>
+    </div>
+
+    <div id="warning">
+      ⚠️ <strong>Security Alert:</strong> This was a simulation! You gave webcam access to a fake page.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
